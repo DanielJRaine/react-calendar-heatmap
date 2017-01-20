@@ -68,7 +68,6 @@ class Demo extends React.Component {
       <div className="container-fluid">
         <h1 className="m-b-2 header">Verizon Thingspace Automated Feature Validation</h1>
         <hr/>
-
         <div className="row">
           <div className="col-xs-1 col-md-1">
             <strong>NPDISC-2414</strong>
@@ -95,6 +94,7 @@ class Demo extends React.Component {
             <small>As the CT, I want to know the counts and percentage of bikes making illegal moves.</small>
           </div>
           <div className="col-xs-8 col-md-8">
+
             <CalendarHeatmap
               values={randomValues}
               classForValue={githubClassForValue}
