@@ -149,7 +149,8 @@ class CalendarHeatmap extends React.Component {
     if (this.props.horizontal) {
       return `0 0 ${this.getWidth()} ${this.getHeight()}`;
     }
-    return `0 0 ${this.getHeight()} ${this.getWidth()}`;
+    // return `0 0 ${this.getHeight()} ${this.getWidth()}`;
+    return `0 0 ${this.getHeight()} ${SQUARE_SIZE}`;    
   }
 
   getSquareCoordinates(dayIndex) {

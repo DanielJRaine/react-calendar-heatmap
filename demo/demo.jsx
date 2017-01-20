@@ -86,6 +86,234 @@ class Demo extends React.Component {
             />
           </div>
         </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
+        <div className="row m-b-3">
+          <div className="col-xs-12 col-md-12">
+            <CalendarHeatmap
+              values={randomValues}
+              classForValue={githubClassForValue}
+              titleForValue={customTitleForValue}
+              tooltipDataAttrs={customTooltipDataAttrs}
+              onClick={customOnClick}
+              numDays={25}
+            />
+          </div>
+        </div>
       </div>
     );
   }
