@@ -65,17 +65,18 @@ const DemoItem = (props) => (
 class Demo extends React.Component {
   render() {
     return (
-      <div className="container">
-        <div className="row m-y-3">
-          <div className="col-xs-12">
-            <div className="text-xs-center">
-              <h1 className="m-b-2">Verizon Thingspace Feature Automation</h1>
-            </div>
-          </div>
-        </div>
+      <div className="container-fluid">
+        <h1 className="m-b-2 header">Verizon Thingspace Automated Feature Validation</h1>
+        <hr/>
 
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
+        <div className="row">
+          <div className="col-xs-1 col-md-1">
+            NPDISC-2414
+          </div>
+          <div className="col-xs-3 col-md-3 truncate">
+            As the CT, I want to know the counts and percentage of cars making illegal moves.
+          </div>
+          <div className="col-xs-8 col-md-8">
             <CalendarHeatmap
               values={randomValues}
               classForValue={githubClassForValue}
@@ -86,8 +87,14 @@ class Demo extends React.Component {
             />
           </div>
         </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
+        <div className="row">
+          <div className="col-xs-1 col-md-1">
+            NPDISC-2414
+          </div>
+          <div className="col-xs-3 col-md-3 truncate">
+            As the CT, I want to know the counts and percentage of cars making illegal moves.
+          </div>
+          <div className="col-xs-8 col-md-8">
             <CalendarHeatmap
               values={randomValues}
               classForValue={githubClassForValue}
@@ -98,8 +105,14 @@ class Demo extends React.Component {
             />
           </div>
         </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
+        <div className="row">
+          <div className="col-xs-1 col-md-1">
+            NPDISC-2414
+          </div>
+          <div className="col-xs-3 col-md-3 truncate">
+            As the CT, I want to know the counts and percentage of cars making illegal moves.
+          </div>
+          <div className="col-xs-8 col-md-8">
             <CalendarHeatmap
               values={randomValues}
               classForValue={githubClassForValue}
@@ -110,8 +123,14 @@ class Demo extends React.Component {
             />
           </div>
         </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
+        <div className="row">
+          <div className="col-xs-1 col-md-1">
+            NPDISC-2414
+          </div>
+          <div className="col-xs-3 col-md-3 truncate">
+            As the CT, I want to know the counts and percentage of cars making illegal moves.
+          </div>
+          <div className="col-xs-8 col-md-8">
             <CalendarHeatmap
               values={randomValues}
               classForValue={githubClassForValue}
@@ -122,188 +141,14 @@ class Demo extends React.Component {
             />
           </div>
         </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
+        <div className="row">
+          <div className="col-xs-1 col-md-1">
+            NPDISC-2414
           </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
+          <div className="col-xs-3 col-md-3 truncate">
+            As the CT, I want to know the counts and percentage of cars making illegal moves.
           </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row m-b-3">
-          <div className="col-xs-12 col-md-12">
+          <div className="col-xs-8 col-md-8">
             <CalendarHeatmap
               values={randomValues}
               classForValue={githubClassForValue}

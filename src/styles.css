@@ -5,6 +5,17 @@
  * The github and gitlab color scales are provided for reference.
  */
 
+.header {
+  text-align: center;
+}
+
+.truncate {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .react-calendar-heatmap text {
   font-size: 10px;
   fill: #aaa;

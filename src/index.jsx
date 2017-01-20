@@ -5,7 +5,7 @@ import { DAYS_IN_WEEK, MILLISECONDS_IN_ONE_DAY, MONTH_LABELS } from './constants
 import { shiftDate, getBeginningTimeForDate, convertToDate } from './dateHelpers';
 
 const SQUARE_SIZE = 10;
-const MONTH_LABEL_GUTTER_SIZE = 100;
+const MONTH_LABEL_GUTTER_SIZE = 0;
 
 class CalendarHeatmap extends React.Component {
   constructor(props) {
@@ -276,7 +276,7 @@ CalendarHeatmap.defaultProps = {
   endDate: new Date(),
   gutterSize: 1,
   horizontal: false,
-  showMonthLabels: true,
+  showMonthLabels: false,
   showOutOfRangeDays: false,
   classForValue: value => (value ? 'color-filled' : 'color-empty'),
 };
