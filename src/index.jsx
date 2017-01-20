@@ -61,7 +61,8 @@ class CalendarHeatmap extends React.Component {
   }
 
   getWeekWidth() {
-    return DAYS_IN_WEEK * this.getSquareSizeWithGutter();
+    // return DAYS_IN_WEEK * this.getSquareSizeWithGutter();
+    return DAYS_IN_WEEK * this.getSquareSizeWithGutter();    
   }
 
   getWidth() {
@@ -270,7 +271,7 @@ CalendarHeatmap.defaultProps = {
   numDays: 200,
   endDate: new Date(),
   gutterSize: 1,
-  horizontal: true,
+  horizontal: false,
   showMonthLabels: true,
   showOutOfRangeDays: false,
   classForValue: value => (value ? 'color-filled' : 'color-empty'),
