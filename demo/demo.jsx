@@ -71,10 +71,10 @@ class Demo extends React.Component {
 
         <div className="row">
           <div className="col-xs-1 col-md-1">
-            NPDISC-2414
+            <strong>NPDISC-2414</strong>
           </div>
           <div className="col-xs-3 col-md-3 truncate">
-            As the CT, I want to know the counts and percentage of cars making illegal moves.
+            <small>As the CT, I want to know the counts and percentage of cars making illegal moves.</small>
           </div>
           <div className="col-xs-8 col-md-8">
             <CalendarHeatmap
@@ -89,64 +89,10 @@ class Demo extends React.Component {
         </div>
         <div className="row">
           <div className="col-xs-1 col-md-1">
-            NPDISC-2414
+            <strong>NPDISC-2437</strong>
           </div>
           <div className="col-xs-3 col-md-3 truncate">
-            As the CT, I want to know the counts and percentage of cars making illegal moves.
-          </div>
-          <div className="col-xs-8 col-md-8">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-xs-1 col-md-1">
-            NPDISC-2414
-          </div>
-          <div className="col-xs-3 col-md-3 truncate">
-            As the CT, I want to know the counts and percentage of cars making illegal moves.
-          </div>
-          <div className="col-xs-8 col-md-8">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-xs-1 col-md-1">
-            NPDISC-2414
-          </div>
-          <div className="col-xs-3 col-md-3 truncate">
-            As the CT, I want to know the counts and percentage of cars making illegal moves.
-          </div>
-          <div className="col-xs-8 col-md-8">
-            <CalendarHeatmap
-              values={randomValues}
-              classForValue={githubClassForValue}
-              titleForValue={customTitleForValue}
-              tooltipDataAttrs={customTooltipDataAttrs}
-              onClick={customOnClick}
-              numDays={25}
-            />
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-xs-1 col-md-1">
-            NPDISC-2414
-          </div>
-          <div className="col-xs-3 col-md-3 truncate">
-            As the CT, I want to know the counts and percentage of cars making illegal moves.
+            <small>As the CT, I want to know the counts and percentage of bikes making illegal moves.</small>
           </div>
           <div className="col-xs-8 col-md-8">
             <CalendarHeatmap
