@@ -5,7 +5,7 @@ import { DAYS_IN_WEEK, MILLISECONDS_IN_ONE_DAY, MONTH_LABELS } from './constants
 import { shiftDate, getBeginningTimeForDate, convertToDate } from './dateHelpers';
 
 const SQUARE_SIZE = 10;
-const MONTH_LABEL_GUTTER_SIZE = 4;
+const MONTH_LABEL_GUTTER_SIZE = 100;
 
 class CalendarHeatmap extends React.Component {
   constructor(props) {
@@ -135,7 +135,10 @@ class CalendarHeatmap extends React.Component {
     if (this.props.horizontal) {
       return null;
     }
-    return `translate(${this.getWeekWidth() + MONTH_LABEL_GUTTER_SIZE}, 0)`;
+    // return `translate(${this.getWeekWidth() + MONTH_LABEL_GUTTER_SIZE}, 0)`;
+    return `translate(${0}, 0)`;    
+    // return `translate(${MONTH_LABEL_GUTTER_SIZE}, 0)`;
+    
   }
 
   getTransformForAllWeeks() {
@@ -157,7 +160,7 @@ class CalendarHeatmap extends React.Component {
     if (this.props.horizontal) {
       return [0, dayIndex * this.getSquareSizeWithGutter()];
     }
-    return [dayIndex * this.getSquareSizeWithGutter(), 0];
+    return [dayIndex * this.getSquareSizeWithGutter() + MONTH_LABEL_GUTTER_SIZE, 0];
   }
 
   getMonthLabelCoordinates(weekIndex) {
