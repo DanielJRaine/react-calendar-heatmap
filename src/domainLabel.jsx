@@ -8,7 +8,7 @@ class DomainLabel extends React.Component {
 
   render() {
     const style = {
-      fontSize: 5
+      fontSize: 10
     }
 
     return (

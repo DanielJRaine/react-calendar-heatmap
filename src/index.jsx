@@ -238,24 +238,35 @@ class CalendarHeatmap extends React.Component {
     });
   }
 
-  render() {
-    return (
-      <svg
-        className="react-calendar-heatmap"
-        viewBox={this.getViewBox()}
-      >
+  renderDomainLabel() {
+    if (this.props.edgeOfChart){
+      return (
         <DomainLabel 
           y={8} 
           weekStart={shiftDate(this.getEndDate(), -7).toString().slice(4, 10)}
           weekEnd={this.getEndDate().toString().slice(4, 10)}
-          ></DomainLabel>         
-        <g transform={this.getTransformForMonthLabels()}>
-          {this.renderMonthLabels()}
-        </g>
-        <g transform={this.getTransformForAllWeeks()}>
-          {this.renderAllWeeks()}
-        </g>
-      </svg>
+          >
+        </DomainLabel>   
+      )
+    }
+  }
+
+  render() {
+    return (
+      <div>
+        {this.renderDomainLabel()}      
+        <svg
+          className="react-calendar-heatmap"
+          viewBox={this.getViewBox()}
+        >
+          <g transform={this.getTransformForMonthLabels()}>
+            {this.renderMonthLabels()}
+          </g>
+          <g transform={this.getTransformForAllWeeks()}>
+            {this.renderAllWeeks()}
+          </g>
+        </svg>
+      </div>
     );
   }
 }
@@ -286,6 +297,7 @@ CalendarHeatmap.defaultProps = {
   horizontal: false,
   showMonthLabels: false,
   showOutOfRangeDays: false,
+  edgeOfChart: false,
   classForValue: value => (value ? 'color-filled' : 'color-empty'),
 };
 

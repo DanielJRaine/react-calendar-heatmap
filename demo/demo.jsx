@@ -70,19 +70,22 @@ class Demo extends React.Component {
         <hr/>
         <div className="row">
           <div className="col-xs-1 col-md-1">
+            <br/>
             <strong>NPDISC-2414</strong>
           </div>
           <div className="col-xs-3 col-md-3 truncate">
+            <br/>
             <small>As the CT, I want to know the counts and percentage of cars making illegal moves.</small>
           </div>
           <div className="col-xs-8 col-md-8">
             <CalendarHeatmap
+              edgeOfChart={true}
               values={randomValues}
               classForValue={githubClassForValue}
               titleForValue={customTitleForValue}
               tooltipDataAttrs={customTooltipDataAttrs}
               onClick={customOnClick}
-              numDays={25}
+              numDays={28}
             />
           </div>
         </div>
@@ -101,7 +104,7 @@ class Demo extends React.Component {
               titleForValue={customTitleForValue}
               tooltipDataAttrs={customTooltipDataAttrs}
               onClick={customOnClick}
-              numDays={25}
+              numDays={28}
             />
           </div>
         </div>
