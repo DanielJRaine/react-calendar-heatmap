@@ -12,7 +12,7 @@ class DomainLabel extends React.Component {
     }
 
     return (
-    <text style={style} className="graph-label" x={this.props.x} y={this.props.y}>
+    <text style={style} className={this.props.offset} x={this.props.x} y={this.props.y}>
       {this.props.weekStart} - {this.props.weekEnd}
     </text>
     )
@@ -25,7 +25,8 @@ DomainLabel.propTypes = {
   domain: PropTypes.string,      // timestamps, days, weeks, months
   month: PropTypes.string,
   weekEnd: PropTypes.string,
-  weekStart: PropTypes.string,         // time value label for domain (i.e., 01-20-2017)
+  weekStart: PropTypes.string,   // time value label for domain (i.e., 01-20-2017)
+  offset: PropTypes.string,
 }
 
 export default DomainLabel;

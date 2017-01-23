@@ -241,12 +241,15 @@ class CalendarHeatmap extends React.Component {
   renderDomainLabel() {
     if (this.props.edgeOfChart){
       return (
-        <DomainLabel 
-          y={8} 
-          weekStart={shiftDate(this.getEndDate(), -7).toString().slice(4, 10)}
-          weekEnd={this.getEndDate().toString().slice(4, 10)}
-          >
-        </DomainLabel>   
+        <div className="row">
+          <DomainLabel 
+            className={"col-lg-3"}
+            weekStart={shiftDate(this.getEndDate(), -7).toString().slice(4, 10)}
+            weekEnd={this.getEndDate().toString().slice(4, 10)}
+            offset={"offset-lg-9"}
+            >
+          </DomainLabel>   
+        </div>
       )
     }
   }
