@@ -3,6 +3,7 @@ import range from 'lodash.range';
 import reduce from 'lodash.reduce';
 import { DAYS_IN_WEEK, MILLISECONDS_IN_ONE_DAY, MONTH_LABELS } from './constants';
 import { shiftDate, getBeginningTimeForDate, convertToDate } from './dateHelpers';
+import DomainLabel from './domainLabel';
 
 const SQUARE_SIZE = 10;
 const MONTH_LABEL_GUTTER_SIZE = 0;
@@ -62,7 +63,7 @@ class CalendarHeatmap extends React.Component {
 
   getWeekWidth() {
     // return DAYS_IN_WEEK * this.getSquareSizeWithGutter();
-    return DAYS_IN_WEEK * this.getSquareSizeWithGutter();    
+    return 28 * this.getSquareSizeWithGutter();    // 4 weeks before today
   }
 
   getWidth() {
@@ -204,10 +205,11 @@ class CalendarHeatmap extends React.Component {
     );
   }
 
+// DAYS_IN_WEEK changed to 28 to display in one long line of days
   renderWeek(weekIndex) {
     return (
       <g key={weekIndex} transform={this.getTransformForWeek(weekIndex)}>
-        {range(DAYS_IN_WEEK).map(dayIndex => this.renderSquare(dayIndex, (weekIndex * DAYS_IN_WEEK) + dayIndex))}
+        {range(28).map(dayIndex => this.renderSquare(dayIndex, (weekIndex * DAYS_IN_WEEK) + dayIndex))}
       </g>
     );
   }
@@ -242,6 +244,11 @@ class CalendarHeatmap extends React.Component {
         className="react-calendar-heatmap"
         viewBox={this.getViewBox()}
       >
+        <DomainLabel 
+          y={8} 
+          weekStart={shiftDate(this.getEndDate(), -7).toString().slice(4, 10)}
+          weekEnd={this.getEndDate().toString().slice(4, 10)}
+          ></DomainLabel>         
         <g transform={this.getTransformForMonthLabels()}>
           {this.renderMonthLabels()}
         </g>
@@ -269,6 +276,7 @@ CalendarHeatmap.propTypes = {
   titleForValue: PropTypes.func,         // function which returns title text for value
   classForValue: PropTypes.func,         // function which returns html class for value
   onClick: PropTypes.func,               // callback function when a square is clicked
+  edgeOfChart: PropTypes.bool,           // whether this suite calendar is the first or last in the chart. Determines axis labels.
 };
 
 CalendarHeatmap.defaultProps = {
